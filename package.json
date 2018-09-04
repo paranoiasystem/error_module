@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "bestemmia_module": "https://github.com/paranoiasystem/bestemmia_module"
+  },
   "author": "ParanoiaSystem",
   "license": "ISC"
 }
