@@ -1,5 +1,5 @@
 module.exports.errorHandler = (err, req, res, next) => {
-    res.status(err.status || 500).json({
+    res.status(err.errCode || 500).json({
         errorCode: err.status,
         message: err.message,
         userInput: req.body,
